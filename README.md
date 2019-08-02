@@ -24,7 +24,7 @@ const iCloud = require('apple-icloud');
 
 var session = {}; // An empty session. Has to be a session object or file path that points on a JSON file containing your session
 var username = "my.account@mail.com"; // Your apple id
-var password = "totally-save-password"; // Your password
+var password = "totally-safe-password"; // Your password
 
 // This creates your iCloud instance
 var myCloud = new iCloud(session, username, password);
